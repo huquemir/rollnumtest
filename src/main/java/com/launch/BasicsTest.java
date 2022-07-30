@@ -15,7 +15,7 @@ public class BasicsTest extends BaseAndroid {
 
 @Test	
 public void basicTesting() throws MalformedURLException {
-		
+		//add another comment
 		AndroidDriver<AndroidElement> driver = desiredCap();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElementById("com.example.rollnumbers:id/rollButton").click();

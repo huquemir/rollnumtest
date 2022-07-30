@@ -16,7 +16,7 @@ public class BaseAndroid {
 	public static AndroidDriver<AndroidElement> desiredCap() throws MalformedURLException {
 		File f = new File("src/test/java");
 		File fs = new File(f, "app-debug.apk");
-		
+		//add webdriver here test
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
